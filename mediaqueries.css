@@ -1,0 +1,161 @@
+@media (max-width:1240px) {
+    .free-offer-section img {
+        width: 100%;
+
+    }
+}
+
+@media (max-width:992px) {
+
+    .banner-section {
+        margin-left: 90px;
+        padding: 120px 0 0 0;
+
+        & h1 {
+            font-size: 50px;
+        }
+    }
+
+    .banner-image {
+        height: 80vh;
+    }
+
+    .target-section {
+        gap: 40px;
+        margin-top: 60px;
+
+        & img {
+            height: 90%;
+            width: 90%;
+        }
+
+        & div {
+            & h1 {
+                font-size: 45px;
+            }
+        }
+    }
+
+    .track-section {
+        & .container {
+            & .track-left-section {
+                & h2 {
+                    font-size: 60px;
+                }
+            }
+        }
+
+        & .container {
+            gap: 0 60px;
+        }
+
+
+    }
+}
+
+@media (max-width:790px) {
+    .banner-section h1 {
+        font-size: 35px;
+    }
+
+    .track-section {
+
+        & .track-bg {
+            width: 100%;
+        }
+
+        & .container {
+            & .track-left-section {
+                & h2 {
+                    font-size: 40px;
+                }
+            }
+
+            & .track-right-section {
+                & h4 {
+                    padding-right: 0;
+                    font-size: 30px;
+                }
+            }
+        }
+
+
+    }
+}
+
+@media (max-width:768px) {
+    .banner-section {
+        margin-left: 60px;
+    }
+
+    .banner-image {
+        height: 50vh;
+    }
+
+    .target-section {
+        grid-template-columns: 100%;
+        gap: 10px 0;
+
+        & img {
+            margin: 0 auto;
+        }
+    }
+
+    .track-section {
+
+        & .container {
+            flex-direction: column;
+            align-items: start;
+            padding: 0 45px;
+        }
+    }
+
+    .free-offer-section {
+        border-radius: 20px;
+        padding-top: 20px;
+
+        & img {
+            width: 100%;
+        }
+
+        & .container {
+            width: 100%;
+        }
+
+    }
+
+
+}
+
+
+
+@media (max-width:600px) {
+
+    .banner-section {
+        margin-left: 30px;
+    }
+
+    nav {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .target-section {
+        padding: 40px 30px;
+
+        & img {
+            height: 95%;
+            width: 95%;
+        }
+    }
+
+    .track-section {
+        & .container {
+            padding: 0 25px;
+        }
+    }
+
+    .free-offer-section {
+        padding: 20px 30px;
+    }
+}
